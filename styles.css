@@ -1,0 +1,63 @@
+/* Global Styles */
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    position: relative;
+  }
+  
+  /* Logo Styles */
+  .logo {
+    position: relative;
+    top: 20px;
+    right: 20px;
+    max-width: 150px;
+    width: auto;
+  }
+  
+  /* Container with the background image */
+  .container {
+    background: url('https://th.bing.com/th/id/R.d6e674d8368e5dd61e15f17d7e550547?rik=zuhIv6O553ZKdg&riu=http%3a%2f%2fimages6.fanpop.com%2fimage%2fphotos%2f37700000%2fHarry-Potter-Dollar-photoshop-37742409-960-418.jpg&ehk=8tEJD3Aun8qEkM5vqFnxIGunoDpGm%2bHPQs7JB6zSxeY%3d&risl=&pid=ImgRaw&r=0') no-repeat center center/cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Content div for text and button */
+  .content {
+    position: absolute;
+    top: 5%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 40px;
+    border-radius: 8px;
+  }
+  
+  .content h2 {
+    margin-bottom: 20px;
+  }
+  
+  /* Button Styles */
+  button {
+    background-color: #FFEBCD;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #1ABC9C;
+  }
+  
+  /* Footer Styles */
+  footer {
+    text-align: absolute;
+    padding: 10px;
+  }
+  
